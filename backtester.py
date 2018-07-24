@@ -11,7 +11,7 @@ def moving_averages(historical_data, ticker, cash):
     crypto = 0
     x_values = []
     y_values = []
-    for place, data_set in enumerate(historical_data[10:-1]):
+    for place, data_set in enumerate(historical_data[5:-1]):
         three_day_average = get_average([historical_data[place-1], historical_data[place-2], historical_data[place-3]])
         five_day_average = get_average([historical_data[place-1],
                                        historical_data[place-2],
