@@ -59,7 +59,7 @@ def plot_graph(x, y):
     Plots our Graph
     """
     plt.plot(x, y)
-    plt.xlabel("Day")
+    plt.xlabel("Minute")
     plt.ylabel("Portfolio Value")
     plt.show()
 
