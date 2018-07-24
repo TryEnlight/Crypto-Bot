@@ -75,7 +75,7 @@ def start():
     try:
         data = response.json()['Data']
     except:
-        print "Sorry, this crypto isnt supported!"
+        print "Sorry, this crypto isn't supported!"
         quit()
     historical_data = data
     print "Fetched historical data for crypto: " + ticker
